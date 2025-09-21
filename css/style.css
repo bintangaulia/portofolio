@@ -387,7 +387,19 @@ section {
   color: var(--second-bg-color);
 }
 
+.sertifikat{
+  background: var(--bg-color);
+}
+
+.sertifikat h2 {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
+  background-color: var(--second-bg-color);
   margin-bottom: 3rem;
 }
 
@@ -413,7 +425,7 @@ section {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
 }
