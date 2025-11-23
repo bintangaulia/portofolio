@@ -36,7 +36,6 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
-
 /*==================== scroll reveal ====================*/
 
 ScrollReveal().reveal( '.home-content, .heading', { origin: 'top' });
