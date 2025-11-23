@@ -218,13 +218,13 @@
         <div class="portofolio-layer">
           <h4>Content Creator</h4>
           <p>
-            Menjadi talent  di beberapa platform sosial media seperti Instagram dan Tiktok.
+            Menjadi talent di beberapa platform sosial media seperti Instagram dan Tiktok.
           </p>
           <a href="https://www.tiktok.com/@gdl.story"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
 
-       <div class="portofolio-box">
+      <div class="portofolio-box">
         <img src="images/portofolio/Analyst Engagement .png" alt="" />
         <div class="portofolio-layer">
           <h4>Analyst Engagement</h4>
@@ -310,33 +310,108 @@
     </div>
   </section>
 
-  <!-- contact section design -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Us!</span></h2>
+  <!-- Contact Section -->
+  <section class="contact-modern" id="contact">
+    <div class="contact-container">
+      <h2 class="title">Ayo <span>Bangun Sesuatu</span></h2>
+      <p class="subtitle">Silahkan hubungi saya untuk berdiskusi lebih lanjut mengenai proyek atau peluang
+        kerjasama.
+      </p>
+      <p class="subtitle">Hubungi saya pada salah satunya cara di bawah.</p>
 
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Full Name" />
-        <input type="email" placeholder='Email' />
+      <div class="contact-buttons">
+        <a href="https://wa.me/62895414643350" class="contact-card">
+          <i class="icon">💬</i>
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="mailto:bintangaulianovala@gmail.com" class="contact-card">
+          <i class="icon">✉️</i>
+          <span>Email</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bintang-aulia-5634b5292/" class="contact-card">
+          <i class="icon">🔗</i>
+          <span>LinkedIn</span>
+        </a>
       </div>
-      <div class="input-box">
-        <input type="number" placeholder="Mobile Number" />
-        <input type="text" placeholder="Email Subject" />
-      </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
-      <input type="submit" value="Send Massage" class="btn">
-    </form>
+    </div>
   </section>
+
+  <style>
+    .contact-modern {
+      width: 100%;
+      min-height: 250px;
+      background: #323946;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* biar isi tetap di tengah */
+      align-items: center;
+      padding: 40px 0;
+      color: #fff;
+      text-align: center;
+    }
+
+
+    .contact-modern .title {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .contact-modern .title span {
+      color: var(--main-color);
+    }
+
+    .contact-modern .subtitle {
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 10px auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .contact-buttons {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .contact-card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px 40px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      color: #e2e8f0;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .contact-card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .icon {
+      font-size: 22px;
+    }
+  </style>
+
+
   <!-- footer design -->
   <footer class="footer">
     <div class="footer-text">
       <p>Copyright &copy; 2024 by bintangnovala | All Right Reserved.</p>
     </div>
-
-    <div class="footer-iconTop">
-      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-    </div>
+    <div class="footer-iconTop"> <a href="#home"><i class="bx bx-up-arrow-alt"></i></a> </div>
   </footer>
+
   <!-- scroll reveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
 
@@ -345,7 +420,7 @@
 
   <!-- custom js -->
   <script src="js/script.js"></script>
-  
+
 </body>
 
 </html>
